@@ -1,0 +1,23 @@
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: right;
+    overflow: hidden;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+input:disabled {
+    color: #000000;
+    font-weight: bold;
+}
+.textfield-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
